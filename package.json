@@ -1,0 +1,19 @@
+{
+  "name": "oakmere-site-portal",
+  "version": "1.0.0",
+  "description": "Oakmere site portal: sign in/out, inductions and subcontractor RAMS register",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "pg": "^8.23.1",
+    "qrcode": "^1.5.4"
+  }
+}
